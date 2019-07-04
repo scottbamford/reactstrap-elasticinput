@@ -1,0 +1,46 @@
+{
+  "name": "reactstrap-elasticinput",
+  "version": "1.0.0",
+  "description": "Reactstrap Input component that autosizes to fit its contents when used with type=\"textarea\".",
+  "main": "dist/lib/commonjs/index.js",
+  "module": "dist/lib/esm/index.js",
+  "types": "dist/lib/esm/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Scott Bamford",
+    "email": "scott@ambidect.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottbamford/reactstrap-elasticinput.git"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "async",
+    "callback",
+    "button"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/scottbamford/reactstrap-elasticinput/issues"
+  },
+  "homepage": "https://github.com/scottbamford/reactstrap-elasticinput/#readme",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc && tsc -m esnext --outDir ./dist/lib/esm"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "reactstrap": "^8.0.0",
+    "tslib": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.16",
+    "@types/reactstrap": "^8.0.1",
+    "typescript": "3.4.5",
+    "rimraf": "^2.6.3"
+  }
+}
