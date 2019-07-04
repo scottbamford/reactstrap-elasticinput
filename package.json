@@ -1,6 +1,6 @@
 {
   "name": "reactstrap-elasticinput",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reactstrap Input component that autosizes to fit its contents when used with type=\"textarea\".",
   "main": "dist/lib/commonjs/index.js",
   "module": "dist/lib/esm/index.js",
@@ -17,9 +17,12 @@
   "keywords": [
     "typescript",
     "react",
-    "async",
-    "callback",
-    "button"
+    "reactstrap",
+    "input",
+    "textarea",
+    "elastic",
+    "autosize",
+    "resize"
   ],
   "publishConfig": {
     "access": "public"
