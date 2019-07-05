@@ -3,7 +3,7 @@ Reactstrap Input component that autosizes to fit its contents when used with typ
 
 ## Installation
 
-Install react-use-async-callback locally within your project folder, like so:
+Install with npm:
 
 ```shell
 npm install reactstrap-elasticinput
