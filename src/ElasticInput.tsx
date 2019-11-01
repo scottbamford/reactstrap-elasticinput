@@ -36,9 +36,9 @@ export const ElasticInput = (props: ElasticInputProps) => {
         }
     }, [resizeToBestHeight, onInput]);
 
-    // Calculate the height when we mount.
+    // Calculate the height when we mount or are first displayed on screen with a non-zero height.
     React.useEffect(() => {
-        if (!calculatedHeight && inputRef.current) {
+        if (!calculatedHeight && inputRef.current && inputRef.current.scrollHeight > 0) {
             resizeToBestHeight(inputRef.current);
         }
     }, [inputRef.current, calculatedHeight, resizeToBestHeight]);
